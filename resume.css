@@ -1,0 +1,130 @@
+
+<style type="text/css">
+
+    h2 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+    p { font-family: Consolas, monaco, monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+    blockquote { font-family: Consolas, monaco, monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+
+    #header {
+        background-image: url("image/header.png");   
+        background-size: 1420px 450px;
+        height: 450px;
+        width: 1440px;
+        text-align: center;
+        line-height:10px;
+    }
+
+    #contact {
+        margin-top: 20px;
+        margin-left: 30px;
+        background-color: #FFFFFF;
+        height: 450px;
+        width: 400px;
+        text-align: left;
+        line-height: 15px;
+        float: left;
+    }
+
+    #top {
+        margin-top: 20px;
+        margin-left: 30px;
+        background-color:  #FFFFFF;
+        height: 450px;
+        width: 1000px;
+        text-align: left;
+        line-height: 15px;
+    }  
+
+    #left{
+        margin-top: 10px;
+        margin-left: 30px;
+        background-color:  #FFFFFF;
+        height: 450px;
+        width: 300px;
+        text-align: left;
+        line-height: 15px;
+    }
+
+    #internal {
+        margin-top: 10px;
+        height: 1200px;
+        width: 800px;
+        margin-left: 30px;
+        background-color: #FFFFFF;
+        float: left;
+        margin-right: 20px;
+        text-align: left;
+        line-height: 15px;
+    }
+
+    #gallery_down {
+        margin-top: 20px;
+        height: 1200px;
+        width: 550px;
+        background-color:  #FFFFFF;
+        float: left;
+    }
+
+    /* 圖片變淡 */
+    .hover img:nth-of-type(1):hover{
+    opacity:0.5;
+    }
+
+    /* on-top arrow */
+    .toTop-arrow {
+	width: 3rem;
+	height: 3rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 25%;
+	opacity: 0.6;
+	background: #000000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+    }
+    .toTop-arrow::before, .toTop-arrow::after {
+        width: 25px;
+        height: 6px;
+        border-radius: 3px;
+        background: #ffffff;
+        position: absolute;
+        content: "";
+    }
+    .toTop-arrow::before {
+        transform: rotate(-45deg) translate(0, -50%);
+        left: 0.42rem;
+    }
+    .toTop-arrow::after {
+        transform: rotate(45deg) translate(0, -50%);
+        right: 0.42rem;
+    }
+    .toTop-arrow:focus {outline: none;}
+
+    #footer {
+        height: 800px;
+        width: 1420px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        clear: both;
+        background-color: #FFFFFF;
+        height: 150px;
+        text-align: center;
+        line-height: 15px;
+    }
+
+    #sidebar a:link,
+    #sidebar a:visiteid {
+    color:#000000;
+    text-decoration:none;
+    }
+    #sidebar a:hover,
+    #sidebar a:active {
+    color:#797979;
+    text-decoration:underline;
+    }
+
+</style>
